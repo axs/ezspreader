@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Session xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+    <instrumentA>
+    <Exchange>TTSIM</Exchange>
+    <Product>ZF</Product>
+    <ProductType>FUTURE</ProductType>
+    <Multiplier>1000</Multiplier>
+    <Contract>Jun09</Contract>
+    <Account>T2</Account>
+      <Size>3</Size>
+    </instrumentA>
+  
+    <instrumentB>    
+    <Exchange>TTSIM</Exchange>
+    <Product>ZB</Product>
+    <ProductType>FUTURE</ProductType>
+    <Multiplier>1000</Multiplier>
+    <Contract>Jun09</Contract>
+    <Account>T2</Account>
+      <Size>1</Size>
+    </instrumentB>
+   
+  <spread>
+    <PayUpTicks>4</PayUpTicks>
+    <Threshold>2</Threshold>
+    <PayUpPeriod>2</PayUpPeriod>
+    <PayUpCount>2</PayUpCount>
+    <MaxNetPosition>50</MaxNetPosition>
+    <MultiplierSize>1</MultiplierSize>
+    <TrendFollow>1</TrendFollow>
+    <PriceLength>500</PriceLength>
+    <Signal>Converge</Signal>
+  </spread>
+  
+   
+</Session>
